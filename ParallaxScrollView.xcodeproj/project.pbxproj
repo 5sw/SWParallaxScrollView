@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26A494AF18AE6BA300A9D765 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A494AE18AE6BA300A9D765 /* Foundation.framework */; };
+		26A494B118AE6BA300A9D765 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A494B018AE6BA300A9D765 /* CoreGraphics.framework */; };
+		26A494B318AE6BA300A9D765 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A494B218AE6BA300A9D765 /* UIKit.framework */; };
+		26A494BB18AE6BA300A9D765 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A494BA18AE6BA300A9D765 /* main.m */; };
+		26A494BF18AE6BA300A9D765 /* SWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A494BE18AE6BA300A9D765 /* SWAppDelegate.m */; };
+		26A494DF18AE6BE900A9D765 /* SWParallaxDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A494DE18AE6BE900A9D765 /* SWParallaxDemoViewController.m */; };
+		26A494ED18AEA44A00A9D765 /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26A494EA18AEA44A00A9D765 /* back@2x.png */; };
+		26A494EE18AEA44A00A9D765 /* front@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26A494EB18AEA44A00A9D765 /* front@2x.png */; };
+		26A494EF18AEA44A00A9D765 /* mid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26A494EC18AEA44A00A9D765 /* mid@2x.png */; };
+		26A494F318AEA45F00A9D765 /* SWParallaxScrollView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 26A494F218AEA45F00A9D765 /* SWParallaxScrollView.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26A494AB18AE6BA300A9D765 /* ParallaxScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParallaxScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26A494AE18AE6BA300A9D765 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		26A494B018AE6BA300A9D765 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		26A494B218AE6BA300A9D765 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		26A494B618AE6BA300A9D765 /* ParallaxScrollView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ParallaxScrollView-Info.plist"; sourceTree = "<group>"; };
+		26A494BA18AE6BA300A9D765 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26A494BC18AE6BA300A9D765 /* ParallaxScrollView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ParallaxScrollView-Prefix.pch"; sourceTree = "<group>"; };
+		26A494BD18AE6BA300A9D765 /* SWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWAppDelegate.h; sourceTree = "<group>"; };
+		26A494BE18AE6BA300A9D765 /* SWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWAppDelegate.m; sourceTree = "<group>"; };
+		26A494DD18AE6BE900A9D765 /* SWParallaxDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWParallaxDemoViewController.h; sourceTree = "<group>"; };
+		26A494DE18AE6BE900A9D765 /* SWParallaxDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWParallaxDemoViewController.m; sourceTree = "<group>"; };
+		26A494EA18AEA44A00A9D765 /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
+		26A494EB18AEA44A00A9D765 /* front@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "front@2x.png"; sourceTree = "<group>"; };
+		26A494EC18AEA44A00A9D765 /* mid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mid@2x.png"; sourceTree = "<group>"; };
+		26A494F118AEA45F00A9D765 /* SWParallaxScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWParallaxScrollView.h; sourceTree = "<group>"; };
+		26A494F218AEA45F00A9D765 /* SWParallaxScrollView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SWParallaxScrollView.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26A494A818AE6BA300A9D765 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26A494B118AE6BA300A9D765 /* CoreGraphics.framework in Frameworks */,
+				26A494B318AE6BA300A9D765 /* UIKit.framework in Frameworks */,
+				26A494AF18AE6BA300A9D765 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26A494A218AE6BA300A9D765 = {
+			isa = PBXGroup;
+			children = (
+				26A494F018AEA45F00A9D765 /* Classes */,
+				26A494B418AE6BA300A9D765 /* ParallaxScrollView */,
+				26A494AD18AE6BA300A9D765 /* Frameworks */,
+				26A494AC18AE6BA300A9D765 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26A494AC18AE6BA300A9D765 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26A494AB18AE6BA300A9D765 /* ParallaxScrollView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26A494AD18AE6BA300A9D765 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26A494AE18AE6BA300A9D765 /* Foundation.framework */,
+				26A494B018AE6BA300A9D765 /* CoreGraphics.framework */,
+				26A494B218AE6BA300A9D765 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26A494B418AE6BA300A9D765 /* ParallaxScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				26A494BD18AE6BA300A9D765 /* SWAppDelegate.h */,
+				26A494BE18AE6BA300A9D765 /* SWAppDelegate.m */,
+				26A494DD18AE6BE900A9D765 /* SWParallaxDemoViewController.h */,
+				26A494DE18AE6BE900A9D765 /* SWParallaxDemoViewController.m */,
+				26A494E918AEA44A00A9D765 /* Images */,
+				26A494B518AE6BA300A9D765 /* Supporting Files */,
+			);
+			name = ParallaxScrollView;
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		26A494B518AE6BA300A9D765 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26A494B618AE6BA300A9D765 /* ParallaxScrollView-Info.plist */,
+				26A494BA18AE6BA300A9D765 /* main.m */,
+				26A494BC18AE6BA300A9D765 /* ParallaxScrollView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26A494E918AEA44A00A9D765 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				26A494EA18AEA44A00A9D765 /* back@2x.png */,
+				26A494EB18AEA44A00A9D765 /* front@2x.png */,
+				26A494EC18AEA44A00A9D765 /* mid@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		26A494F018AEA45F00A9D765 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				26A494F118AEA45F00A9D765 /* SWParallaxScrollView.h */,
+				26A494F218AEA45F00A9D765 /* SWParallaxScrollView.mm */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26A494AA18AE6BA300A9D765 /* ParallaxScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26A494D718AE6BA300A9D765 /* Build configuration list for PBXNativeTarget "ParallaxScrollView" */;
+			buildPhases = (
+				26A494A718AE6BA300A9D765 /* Sources */,
+				26A494A818AE6BA300A9D765 /* Frameworks */,
+				26A494A918AE6BA300A9D765 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParallaxScrollView;
+			productName = ParallaxScrollView;
+			productReference = 26A494AB18AE6BA300A9D765 /* ParallaxScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26A494A318AE6BA300A9D765 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SW;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Sven Weidauer";
+			};
+			buildConfigurationList = 26A494A618AE6BA300A9D765 /* Build configuration list for PBXProject "ParallaxScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 26A494A218AE6BA300A9D765;
+			productRefGroup = 26A494AC18AE6BA300A9D765 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26A494AA18AE6BA300A9D765 /* ParallaxScrollView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26A494A918AE6BA300A9D765 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26A494EE18AEA44A00A9D765 /* front@2x.png in Resources */,
+				26A494EF18AEA44A00A9D765 /* mid@2x.png in Resources */,
+				26A494ED18AEA44A00A9D765 /* back@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26A494A718AE6BA300A9D765 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26A494F318AEA45F00A9D765 /* SWParallaxScrollView.mm in Sources */,
+				26A494BF18AE6BA300A9D765 /* SWAppDelegate.m in Sources */,
+				26A494DF18AE6BE900A9D765 /* SWParallaxDemoViewController.m in Sources */,
+				26A494BB18AE6BA300A9D765 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		26A494D518AE6BA300A9D765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		26A494D618AE6BA300A9D765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26A494D818AE6BA300A9D765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo/ParallaxScrollView-Prefix.pch";
+				INFOPLIST_FILE = "Demo/ParallaxScrollView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		26A494D918AE6BA300A9D765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo/ParallaxScrollView-Prefix.pch";
+				INFOPLIST_FILE = "Demo/ParallaxScrollView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26A494A618AE6BA300A9D765 /* Build configuration list for PBXProject "ParallaxScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26A494D518AE6BA300A9D765 /* Debug */,
+				26A494D618AE6BA300A9D765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26A494D718AE6BA300A9D765 /* Build configuration list for PBXNativeTarget "ParallaxScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26A494D818AE6BA300A9D765 /* Debug */,
+				26A494D918AE6BA300A9D765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26A494A318AE6BA300A9D765 /* Project object */;
+}
