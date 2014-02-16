@@ -1,5 +1,6 @@
 language: objective-c
 xcode_project: ParallaxScrollView.xcodeproj
 xcode_scheme: ParallaxScrollView
+xcode_sdk: iphonesimulator
 before_install:
   - gem install cocoapods --no-rdoc --no-ri --no-document --quiet
