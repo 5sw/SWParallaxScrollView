@@ -4,3 +4,5 @@ xcode_scheme: ParallaxScrollView
 xcode_sdk:
   - iphonesimulator7.0
   - iphonesimulator6.1
+  - iphonesimulator5.1
+  - iphonesimulator5.0
