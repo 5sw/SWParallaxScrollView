@@ -28,16 +28,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "26A494C518AE6BA300A9D765"
-               BuildableName = "ParallaxScrollViewTests.xctest"
-               BlueprintName = "ParallaxScrollViewTests"
-               ReferencedContainer = "container:ParallaxScrollView.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

@@ -1,3 +1,5 @@
 language: objective-c
+xcode_project: ParallaxScrollView.xcodeproj
+xcode_scheme: ParallaxScrollView
 before_install:
   - gem install cocoapods --no-rdoc --no-ri --no-document --quiet
