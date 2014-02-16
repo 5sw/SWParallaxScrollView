@@ -49,10 +49,10 @@
 
     if (CGPointEqualToPoint( contentOffset,  oldContentOffset )) return;
 
-    CGVector delta = CGVectorMake( contentOffset.x - oldContentOffset.x, contentOffset.y - oldContentOffset.y );
+    CGPoint delta = CGPointMake( contentOffset.x - oldContentOffset.x, contentOffset.y - oldContentOffset.y );
 
     CGFloat currentLayer = -CGFLOAT_MAX;
-    CGVector currentDelta = CGVectorMake( -delta.dx, -delta.dy );
+    CGPoint currentDelta = CGPointMake( -delta.x, -delta.y );
 
     for (const auto &layerView : _layerSubviews) {
         if (layerView.first == 0.0) continue;
@@ -60,12 +60,12 @@
         if (layerView.first != currentLayer) {
             currentLayer = layerView.first;
             CGFloat movement = pow( 2, currentLayer ) - 1;
-            currentDelta = CGVectorMake( delta.dx * movement, delta.dy * movement );
+            currentDelta = CGPointMake( delta.x * movement, delta.y * movement );
         }
 
         CGPoint center = layerView.second.center;
-        center.x -= currentDelta.dx;
-        center.y -= currentDelta.dy;
+        center.x -= currentDelta.x;
+        center.y -= currentDelta.y;
         layerView.second.center = center;
     }
 
