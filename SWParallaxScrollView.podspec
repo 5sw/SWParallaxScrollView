@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SWParallaxScrollView"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "A UIScrollView subclass with multiple layers and a parallax effect."
 
   s.description  = <<-DESC
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, '5.0'
 
-  s.source       = { :git => "https://github.com/5sw/SWParallaxScrollView.git", :tag => "0.1.0" }
+  s.source       = { :git => "https://github.com/5sw/SWParallaxScrollView.git", :tag => "0.1.1" }
 
   s.source_files  = 'Classes', 'Classes/*.{h,m}'
   s.public_header_files = 'Classes/*.h'
